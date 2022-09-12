@@ -43,6 +43,7 @@ jobs:
           RELEASE=${{ matrix.release }}
           PROJECT=designate
           PROJECT_REF=${{ env.PROJECT_REF }}
+          EXTRAS=
           PROFILES=
           DIST_PACKAGES=bind9utils
           PIP_PACKAGES=
