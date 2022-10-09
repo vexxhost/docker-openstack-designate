@@ -43,6 +43,7 @@ jobs:
         build-args: |-
           RELEASE=${{ matrix.release }}
           PROJECT=designate
+          PROJECT_REPO=https://github.com/openstack/designate
           PROJECT_REF=${{ env.PROJECT_REF }}
           EXTRAS=
           PROFILES=
